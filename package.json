@@ -1,9 +1,5 @@
 {
   "name": "abhibus-clone",
-  "version": "1.0.0",
-  "engines": {
-    "node": "14.x"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -11,6 +7,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.4",
     "bootstrap": "^5.1.1",
+    "dotenv": "^10.0.0",
     "firebase": "^8.6.2",
     "flickity": "^2.2.2",
     "react": "^17.0.2",
@@ -22,6 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "server": "node src/server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
