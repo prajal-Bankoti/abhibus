@@ -1,5 +1,5 @@
 
-import "../components/css/offers.css"
+import "../Components/css/Offers.css"
 
 function Offers(){
     return (

@@ -1,17 +1,17 @@
 import { Route, Switch } from "react-router";
 import { Link, useLocation } from "react-router-dom";
 import { Offers } from "./Offers";
-import { Header } from "../components/jsx/Header";
-import { Footer } from "../components/jsx/Footer";
-import Home from "../components/jsx/home";
-import Train from "../components/jsx/Train";
-import Bus from "../components/jsx/Bus.jsx";
-import Navbar from "../components/jsx/Link";
-import Hotel from "../components/jsx/Hotels";
-import Rental from "../components/jsx/Rental";
-import {Payment} from "../components/jsx/Payment"
-import { HotelList } from "../components/jsx/HotelList";
-import Pay from "../components/jsx/payment_successful"
+import { Header } from "../Components/jsx/Header";
+import { Footer } from "../Components/jsx/Footer";
+import Home from "../Components/jsx/home";
+import Train from "../Components/jsx/Train";
+import Bus from "../Components/jsx/Bus.jsx";
+import Navbar from "../Components/jsx/Link";
+import Hotel from "../Components/jsx/Hotels";
+import Rental from "../Components/jsx/Rental";
+import {Payment} from "../Components/jsx/Payment"
+import { HotelList } from "../Components/jsx/HotelList";
+import Pay from "../Components/jsx/payment_successful"
 export const Router = () => {
   let location = useLocation();
   var t = "block";
